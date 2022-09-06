@@ -17,7 +17,7 @@ public class PlantPlacesController {
 		
 	}
 	
-	@RequestMapping("/index")
+	@RequestMapping("/")
 	public String index() {
 		return "start";
 		
