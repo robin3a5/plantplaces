@@ -17,6 +17,11 @@ public class PlantPlacesController {
 		
 	}
 	
+	
+	/**
+	 * Handle the / endpoint
+	 * return
+	 */
 	@RequestMapping("/")
 	public String index() {
 		return "start";
